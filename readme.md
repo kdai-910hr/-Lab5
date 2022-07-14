@@ -18,8 +18,9 @@ pip install wandb
 
 ## 仓库代码结构
 ```python
-|-- picture.ipynb  # 训练图片使用的 notebook
-|-- text.ipynb  # 训练文本使用的 notebook
+|-- code
+	-- picture.ipynb  # 训练图片使用的 notebook
+	-- text.ipynb  # 训练文本使用的 notebook
 |-- test_with_label.txt  # 预测的测试集标签
 |-- test_without_label.txt  # 提供的无标签测试集文件
 |-- train.txt  # 提供的有标签训练集文件
